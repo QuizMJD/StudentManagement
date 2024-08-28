@@ -16,7 +16,7 @@ import java.util.List;
 public class StudentServlet extends HttpServlet {
     private static List<Student> listStudents=new ArrayList<>();
     public void init() throws ServletException {
-        Student st1=new Student("sv001","pham qui",21);
+        Student st1=new Student("sv001","haha pham",21);
         Student st2=new Student("sv002","nhu nhu",22);
         listStudents.add(st1);
         listStudents.add(st2);
